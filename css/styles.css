@@ -187,13 +187,15 @@ a {
   letter-spacing: 0.02em;
 }
 /* hero */
-.section-hero .overlay {
+.section-hero {
   background-color: var(--hero-color);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
+}
+.overlay {
   max-width: 1600px;
   height: 600px;
   background-position: center;
