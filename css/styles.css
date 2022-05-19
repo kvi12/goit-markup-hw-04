@@ -146,6 +146,12 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+.header-mail::before {
+  width: 15px;
+  height: 10px;
+  margin-right: 7px;
+  content: url(../images/envelope.svg);
+}
 .header-mail:hover {
   color: var(--accent-color);
   font-style: normal;
@@ -170,6 +176,13 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+.header-telefone::before {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  content: url(../images/smartphone.svg);
+}
+
 .header-telephone:hover {
   color: var(--accent-color);
   font-style: normal;
@@ -188,7 +201,7 @@ a {
 }
 /* hero */
 .section-hero {
-  background-color: var(--hero-color);
+  background-color: rgba(47, 48, 58, 0.4);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
