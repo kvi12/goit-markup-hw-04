@@ -78,7 +78,7 @@ a {
   color: var(--accent-color);
   font-weight: 700;
   font-size: 26px;
-  /* margin-right: 93px; */
+  margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 76px;
@@ -113,6 +113,7 @@ a {
   display: flex;
   font-weight: 500;
   margin-left: auto;
+  align-items: center;
 }
 .header-nav-list > li:first-child {
   margin-right: 50px;
@@ -138,6 +139,7 @@ a {
 .link-portfolio {
   color: var(--accent-color);
 }
+
 .header-mail {
   color: var(--second-title-color);
   font-style: normal;
@@ -146,12 +148,6 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.header-mail::before {
-  width: 15px;
-  height: 10px;
-  margin-right: 7px;
-  content: url(../images/envelope.svg);
-}
 .header-mail:hover {
   color: var(--accent-color);
   font-style: normal;
@@ -159,7 +155,9 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  fill: var(--accent-color);
 }
+
 .header-mail:focus {
   color: var(--accent-color);
   font-style: normal;
@@ -167,6 +165,10 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  fill: var(--accent-color);
+}
+.header-mail-icon {
+  margin-right: 10px;
 }
 .header-telephone {
   color: var(--second-title-color);
@@ -176,13 +178,6 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.header-telefone::before {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-  content: url(../images/smartphone.svg);
-}
-
 .header-telephone:hover {
   color: var(--accent-color);
   font-style: normal;
@@ -190,6 +185,7 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  fill: var(--accent-color);
 }
 .header-telephone:focus {
   color: var(--accent-color);
@@ -198,10 +194,14 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  fill: var(--accent-color);
+}
+.header-telephone-icon {
+  margin-right: 10px;
 }
 /* hero */
 .section-hero {
-  background-color: rgba(47, 48, 58, 0.4);
+  /* background-color: rgba(47, 48, 58, 0.4); */
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -271,6 +271,8 @@ a {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
+}
+.box-antena {
 }
 .qualities-list-item {
   margin-right: 30px;
@@ -359,7 +361,8 @@ a {
   line-height: 1.18;
   color: var(--second-title-color);
 }
-
+.people-soc-link {
+}
 /* button */
 .button-section {
   margin-top: 84px;
