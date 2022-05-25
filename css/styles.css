@@ -478,7 +478,20 @@ a {
   letter-spacing: 0.03em;
   color: var(--second-title-color);
 }
-
+/* ----------Постоянные клиенты----------- */
+.section-client {
+  height: 372px;
+}
+.client-icon {
+  display: flex;
+}
+.client-icon-item {
+  border-color: #afb1b8;
+  margin-right: 30px;
+}
+.client-icon-item-right {
+  border-color: #afb1b8;
+}
 /*-----------footer-navigation ------------*/
 .footer {
   background-color: var(--hero-color);
