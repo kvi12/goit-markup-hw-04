@@ -255,12 +255,14 @@ a {
   display: flex;
 }
 .box {
-  background-color: var(-people-background-color);
+  background-color: #f5f4fa;
   width: 270px;
   height: 120px;
   border-radius: 4px;
   justify-content: center;
   text-align: center;
+  padding: 0 auto;
+  display: flex;
 }
 .qualities-main-title {
   font-weight: 700;
@@ -280,11 +282,18 @@ a {
   border: 0;
   clip: rect(0 0 0 0);
 }
-.box {
-}
+
 .qualities-list-item {
   margin-right: 30px;
 }
+/* .box {
+  width: 270px;
+  height: 119px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+} */
 .properties-title {
   font-weight: 700;
   font-size: 14px;
