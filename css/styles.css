@@ -262,6 +262,7 @@ a {
   justify-content: center;
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 .qualities-main-title {
   font-weight: 700;
