@@ -260,9 +260,8 @@ a {
   height: 120px;
   border-radius: 4px;
   justify-content: center;
-  text-align: center;
-  padding: 0 auto;
   display: flex;
+  align-items: center;
 }
 .qualities-main-title {
   font-weight: 700;
@@ -286,14 +285,7 @@ a {
 .qualities-list-item {
   margin-right: 30px;
 }
-/* .box {
-  width: 270px;
-  height: 119px;
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  justify-content: center;
-  align-items: center;
-} */
+
 .properties-title {
   font-weight: 700;
   font-size: 14px;
