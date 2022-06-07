@@ -383,9 +383,9 @@ a {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  display: block;
-  background-color: var(--header-color);
-  fill: var(--accent-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .peoples-list-item:hover {
@@ -394,6 +394,11 @@ a {
 }
 .peoples-list-item + .peoples-list-item {
   margin-left: 10px;
+}
+.icon-soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .client-title {
