@@ -147,6 +147,9 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  fill: var(--second-title-color);
 }
 .header-mail:hover {
   color: var(--accent-color);
@@ -177,6 +180,9 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  fill: var(--second-title-color);
 }
 .header-telephone:hover {
   color: var(--accent-color);
@@ -386,11 +392,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--header-color);
 }
 
 .peoples-list-item:hover {
   background-color: var(--accent-color);
-  fill: var(--header-color);
 }
 .peoples-list-item + .peoples-list-item {
   margin-left: 10px;
@@ -399,8 +405,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: #afb1b8;
 }
-
+.icon-soc-link:hover {
+  fill: #ffffff;
+}
 .client-title {
   font-weight: 700px;
   font-size: 36px;
