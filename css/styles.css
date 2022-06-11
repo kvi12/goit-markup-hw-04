@@ -385,7 +385,11 @@ a {
   align-items: center;
   margin-bottom: 30px;
 }
-.peoples-list-item {
+
+.peoples-list-item + .peoples-list-item {
+  margin-left: 10px;
+}
+.peoples-soc-link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -393,23 +397,22 @@ a {
   justify-content: center;
   align-items: center;
   background-color: var(--header-color);
+  fill: #afb1b8;
 }
-
-.peoples-list-item:hover {
+.peoples-soc-link:hover {
   background-color: var(--accent-color);
+  fill: #ffffff;
 }
-.peoples-list-item + .peoples-list-item {
-  margin-left: 10px;
+.peoples-soc-link:focus {
+  background-color: var(--accent-color);
+  fill: #ffffff;
 }
 .icon-soc-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: #afb1b8;
 }
-.icon-soc-link:hover {
-  fill: #ffffff;
-}
+
 .client-title {
   font-weight: 700px;
   font-size: 36px;
@@ -523,7 +526,8 @@ a {
 }
 .client-icon {
   display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  justify-content: space-between;
   align-items: center;
 }
 .client-icon-item {
@@ -532,17 +536,17 @@ a {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  fill: #afb1b8;
+  /* fill: #afb1b8; */
 }
 .client-icon-item-right {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
