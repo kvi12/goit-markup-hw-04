@@ -524,13 +524,16 @@ a {
 .section-client {
   height: 372px;
 }
-.client-icon {
+.client-icon-item + .client-icon-item {
+  margin-left: 30px;
+}
+.client-icon-list {
+  width: 1200px;
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
-  align-items: center;
 }
-.client-icon-item {
+.client-icon-link {
   margin-right: 30px;
   width: 100%;
   height: 100%;
@@ -539,9 +542,9 @@ a {
   justify-content: space-between;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  /* fill: #afb1b8; */
+  fill: #afb1b8;
 }
-.client-icon-item-right {
+.client-icon-link-right {
   width: 100%;
   height: 100%;
   display: flex;
