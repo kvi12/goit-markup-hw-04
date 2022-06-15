@@ -95,7 +95,6 @@ a {
 .header-nav {
   display: flex;
   align-items: center;
-  /* margin-left: 331px; */
 }
 
 .site-nav {
@@ -207,7 +206,6 @@ a {
 }
 /* hero */
 .section-hero {
-  /* background-color: rgba(47, 48, 58, 0.4); */
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -438,8 +436,6 @@ a {
   color: var(--main-title-color);
   background: var(--people-background-color);
   border: var(--accent-color);
-  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12); */
   border-radius: 4px;
   padding: 6px 21px;
   cursor: pointer;
@@ -452,8 +448,6 @@ a {
   color: var(--main-title-color);
   background: var(--people-background-color);
   border: var(--accent-color);
-  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12); */
   border-radius: 4px;
   padding: 6px 21px;
   cursor: pointer;
@@ -542,9 +536,7 @@ a {
   width: 170px;
   height: 92px;
 }
-/* .client-icon-item + .client-icon-item {
-  margin-left: 30px;
-} */
+
 .client-icon-list {
   /* width: 1200px; */
   margin: 0 auto;
@@ -569,19 +561,11 @@ a {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }
-/* .client-icon-link-right {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  fill: #afb1b8;
-} */
+
 /*-----------footer-navigation ------------*/
 .footer {
   display: flex;
+  align-items: baseline;
   width: 100%;
   padding: 60px 0;
   background-color: var(--hero-color);
@@ -648,13 +632,12 @@ a {
   margin-top: 20px;
 }
 .footer-container {
-  width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: baseline;
 }
 .footer-soc-container {
-  display: flex;
+  margin-left: 85px;
 }
 .footer-soc-title {
   padding-bottom: 20px;
@@ -669,13 +652,11 @@ a {
 }
 .footer-soc-list {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
-.footer-list-item + .footter-list-item {
-  margin-left: 10px;
-}
+
 .footer-soc-link {
   width: 44px;
   height: 44px;
@@ -683,6 +664,14 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--header-color);
-  fill: #afb1b8;
+  fill: var(--footer-logo-color);
+}
+.footer-soc-link {
+  margin-left: 10px;
+}
+.footer-soc-link:hover {
+  background-color: var(--accent-color);
+}
+.footer-soc-link:focus {
+  background-color: var(--accent-color);
 }
