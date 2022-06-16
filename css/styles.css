@@ -456,11 +456,13 @@ a {
 .button-filter-right:hover {
   background: var(--accent-color);
   color: var(--main-btn-color);
+  box-shadow: 0px 0px 2px 0px #e5e5e5;
 }
 .button-filter:focus,
 .button-filter-right:focus {
   background: var(--accent-color);
   color: var(--main-btn-color);
+  box-shadow: 0px 0px 2px 0px #e5e5e5;
 }
 .pointer {
   cursor: pointer;
@@ -532,13 +534,11 @@ a {
   height: 372px;
 }
 .client-icon-item {
-  /* display: block; */
   width: 170px;
   height: 92px;
 }
 
 .client-icon-list {
-  /* width: 1200px; */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -665,6 +665,7 @@ a {
   justify-content: center;
   align-items: center;
   fill: var(--footer-logo-color);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .footer-soc-link {
   margin-left: 10px;
