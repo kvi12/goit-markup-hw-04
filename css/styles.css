@@ -153,6 +153,8 @@ a {
   display: flex;
   align-items: center;
   fill: var(--second-title-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-mail:hover {
   color: var(--accent-color);
@@ -186,6 +188,8 @@ a {
   display: flex;
   align-items: center;
   fill: var(--second-title-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-telephone:hover {
   color: var(--accent-color);
@@ -222,7 +226,7 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/hero.jpg);
 }
 
