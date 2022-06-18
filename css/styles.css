@@ -369,8 +369,10 @@ a {
     0px 2px 1px rgb(0 0 0 / 20%);
 }
 .peoples-div {
-  margin-top: 30px;
-  margin-bottom: 16px;
+  padding-top: 30px;
+  padding-right: 32px;
+  padding-bottom: 30px;
+  padding-left: 32px;
   text-align: center;
 }
 .peoples {
@@ -389,7 +391,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .peoples-list-item + .peoples-list-item {
@@ -430,7 +432,7 @@ a {
 }
 /* button */
 .button-section {
-  margin-top: 84px;
+  padding: 94px 0;
 }
 .filters-list {
   display: flex;
@@ -478,9 +480,7 @@ a {
   cursor: pointer;
 }
 /* cards */
-.container-cards {
-  margin-bottom: 94px;
-}
+
 .card-set {
   display: flex;
   flex-wrap: wrap;
@@ -546,12 +546,17 @@ a {
 .client-icon-item {
   width: 170px;
   height: 92px;
+  flex-basis: calc(100% / 6 - var(--card-set-gap));
+  margin-left: var(--card-set-gap);
+  margin-top: var(--card-set-gap);
 }
 
 .client-icon-list {
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--card-set-gap));
+  margin-left: calc(-1 * var(--card-set-gap));
 }
 .client-icon-link {
   width: 100%;
@@ -650,7 +655,6 @@ a {
   margin-left: 85px;
 }
 .footer-soc-title {
-  padding-bottom: 20px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -664,6 +668,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 
