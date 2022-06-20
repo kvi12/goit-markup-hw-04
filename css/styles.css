@@ -386,6 +386,7 @@ a {
   font-size: 16px;
   line-height: 1.18;
   color: var(--second-title-color);
+  margin-top: 10px;
 }
 .peoples-soc-list {
   display: flex;
